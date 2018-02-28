@@ -1,0 +1,423 @@
+{
+   "html_attributions" : [],
+   "results" : [
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.710067,
+               "lng" : 139.8128059
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7114159802915,
+                  "lng" : 139.8141548802915
+               },
+               "southwest" : {
+                  "lat" : 35.7087180197085,
+                  "lng" : 139.8114569197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "4555bf305625ed2a9e6ec682312e58b0f2ae8714",
+         "name" : "千葉工業大学 東京スカイツリータウンキャンパス",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2232,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/107066965016012064706/photos\"\u003eBenjamin Hsieh\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAFFDm9gVEQBRQW3PotUmmiIplAzRhsGM-kHo_aLZxA5IwU9WiL1wHunXvQCkCWX_w44N1yS9a58-aEMvCjzcG1hyIBGVUpGgnL1dDpZMX8G1dBGX-jQPlZ90rwQJg-ttpEhA93ud14yH36pvNFos1S6k0GhQJJqrPspHX1_67FZ0R8zFYd4bnMg",
+               "width" : 3968
+            }
+         ],
+         "place_id" : "ChIJ8ZAWFNaOGGARzhi8LDXRNvE",
+         "rating" : 4.6,
+         "reference" : "CmRSAAAAlXdEAy9uod-VieSMfQFsEukDxEVJQ7mUdyTIzt9_7jJ73VKZJUGdVvvvWqBpS2G9zXFEmJCF55NSCLqgTHxGumlTMTz4iQQhSd1rl92xaXirY9nlvWKOuo8w4yOlY67rEhAZlEqIfSfdLVY55MmMvnvPGhS3mnJaW0zoRL5PT9oENRn9MWZnYA",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区押上１丁目１−２ 8F 東京スカイツリータウン ソラマチ"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.7057445,
+               "lng" : 139.8085345
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7070934802915,
+                  "lng" : 139.8098834802915
+               },
+               "southwest" : {
+                  "lat" : 35.70439551970851,
+                  "lng" : 139.8071855197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "db2ccfdce32534d3807c61505e24b02b5ce3c9df",
+         "name" : "たばこと塩の博物館",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 768,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/108099695809898769895/photos\"\u003eTakeshi Kawaguchi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAASp4IYgwTcHcZyozs8TiE1lkRXQlkrQdYIqznEtZVzZs84tXWA22VD5PVtJYQWeOw4QpVgJS39RDzsgkEpVm0bq203QgIlWD2Vp82DsQH9QoQ-VWoGNKYUPPJfBcCHS-MEhCu9GYS_5UTs7_rT7Q9AL6AGhQJCU9P9XQGi1wk_LEiGuU0UugjJw",
+               "width" : 1024
+            }
+         ],
+         "place_id" : "ChIJK6-Pz6iMGGAR-au44ZofDzM",
+         "rating" : 4.2,
+         "reference" : "CmRRAAAAIeq-s_26xUpQlGGvU9r03-BlYqLSajeSFOalNfhZ9YoPtbcC6-q8b7iZTOAI0iOkfqAGdoKUPPE_UzdyBRlVR6w0a6Ji1tjxaIKlj9FHeJTPDB0QXIDGCKpobHpFWUXhEhBpzW2c6-Pvj4VxAkVp-pDiGhSE0xri3Gih0GHrcJndzIBaWwuphQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区横川１丁目１６−３"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.7002947,
+               "lng" : 139.8073328
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7016436802915,
+                  "lng" : 139.8086817802915
+               },
+               "southwest" : {
+                  "lat" : 35.6989457197085,
+                  "lng" : 139.8059838197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "ff6e1125732ae02d705052130840754b2dd1811f",
+         "name" : "硝子企画舎 プリズムプラス",
+         "place_id" : "ChIJKdU-9SyJGGAR8TjvGfT_1mw",
+         "rating" : 5,
+         "reference" : "CmRRAAAANEnelR8gKUHXUlTMj9f-Sl999pEcSxMrvejNynzSAuOGUNzzFN7SeSE5U-JHcRNTCa_s-lidtpo4f45Av5xKy-j0T_xr77Zdkp1ITeVYqK5PYU3MUVm_485mpATbjjbCEhDHrE5OqR6Ws4zGRohpDT-MGhQ1kezs1ePqlWwkqzylar1O-6yFVw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "〒130-0011, ４丁目-１６-７ 石原, 墨田区"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.7086698,
+               "lng" : 139.8101303
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7100187802915,
+                  "lng" : 139.8114792802915
+               },
+               "southwest" : {
+                  "lat" : 35.7073208197085,
+                  "lng" : 139.8087813197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "80a7d4b5194a5bcb8440a7e05627bd433194f972",
+         "name" : "DreamBox",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "place_id" : "ChIJ__-rmdaOGGARXiWDzCjQEAI",
+         "reference" : "CmRRAAAAsYAGx9HaXfNTZZg4igJOX0qHiMv9gbH_RdvAbIud7-ClyVvwxss3bagE6xjbe2BbXG9qjX7NexAOiOPVjYvVJOm9dgPU35F6aXk0kfTq03jQ-9_CgMQFx57QM-OC2VcXEhDtIKf9v5D04cu98YvyGS8QGhQMr6rzDrlqGnqPzawNVh0aVqE5ow",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区業平１丁目１２−７ 石塚マンション"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.7103744,
+               "lng" : 139.8077129
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7117233802915,
+                  "lng" : 139.8090618802915
+               },
+               "southwest" : {
+                  "lat" : 35.7090254197085,
+                  "lng" : 139.8063639197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "c17c39235ad31b68b1330e90d00cc0e862bb7568",
+         "name" : "Folding Screen Museum",
+         "place_id" : "ChIJcwAIxNCOGGARczQa6N0yG_Q",
+         "reference" : "CmRSAAAAQJC0RN0rs2SBPXsWMc2AoWY0EZdChb9C0RjjFO6WQ08Lw8Q9S8dblXJlHFNAvICGLftLy5sx1e-aLg6HjGnkhxA0Fl5y8zZ0-7N4wi-KxnkqPjf0fXKZcph-ZXCkMN48EhBCAz7HZVKdTimEOzT_x1l0GhSg9gfHM8NzmTrUC66jI6x8YCetiQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "1-31-6 Mukojima,Tokyo,131-0033"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.71011599999999,
+               "lng" : 139.812555
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7114649802915,
+                  "lng" : 139.8139039802915
+               },
+               "southwest" : {
+                  "lat" : 35.7087670197085,
+                  "lng" : 139.8112060197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "53090b752506fc5f16c3b7695e06388b13b290bd",
+         "name" : "郵政博物館",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 440,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100420703288385887101/photos\"\u003e郵政博物館\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAdHpKf2gnzWmeRRM_o4RQh6gBK6AJa85oWEBDRfTrXX3Trri6615r8E8YcsCgvKEhby-cedPyQQ_jLiYTQ7_fhb_9Dz8RhWKsjQ14JBfmzq4wQ0Cb4l4Uz2eRWINrzLBEEhAn1TKVNXQxoXlVr-oL1pNVGhRCNLCVp8psq1veitb_BV9rQMG12g",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJ10y4FNaOGGARnQ23USYY0Ik",
+         "rating" : 4.2,
+         "reference" : "CmRSAAAASBab8-eneX91kHQqQck2fdPelHUgVzB8g28xPRARD0GX6EswhZ2kStW7GN0i_KqZV_wl1TBMaA9Rf-_UVk-_zgmeCp1oBJO3CicS1i-VmxHNjF04XUCz8Dkpds01h06KEhBOobhn9c0kHRjUej64PUxDGhRQRkRuMj__4fkLQlTLQc-EpzYyAg",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区 押上１丁目１−２ 東京スカイツリータウン・ソラマチ 9F"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.7066969,
+               "lng" : 139.812496
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7080458802915,
+                  "lng" : 139.8138449802915
+               },
+               "southwest" : {
+                  "lat" : 35.7053479197085,
+                  "lng" : 139.8111470197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "d01183d1a56e122dea17e5e6cbbc0dd003f3f24a",
+         "name" : "宵湖舎KABEギャラリー",
+         "place_id" : "ChIJx5ktC9WOGGARVVIDjAgomS4",
+         "reference" : "CmRRAAAA41FpV3s4uUYkwGBgRYilsgx7HOKDeAI1tC0SY_ynW2hcPk4vRIPGEUCuh407Uy8QNnw8tHFYa4Cy42SrImpxdC2Z6gLKbBZFgutm0MbTope7CM7kwJbVEjWvj9pfGTzEEhDuVryLiDN2ILgmLAmRPo2NGhRZFV13bJM6jpqDAnfdN1SfIDYrlw",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "〒130-0002, ２丁目-６-８ 業平, 墨田区"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.698814,
+               "lng" : 139.8128701
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.70016298029149,
+                  "lng" : 139.8142190802915
+               },
+               "southwest" : {
+                  "lat" : 35.6974650197085,
+                  "lng" : 139.8115211197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "a86b289432b1706bd8ec41de42dddfe8e104c709",
+         "name" : "乾燥木材工芸資料館",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 2448,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/114049645765414487054/photos\"\u003e社安あふー\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAA-qXQuF5AuPJp3apBbzcM1c3KFJtj7huLW8aDtt7WKLHPEtPk2vV4qBQWJS8jfU73WIf5gi92NxVPovqU7V4zrMqqDnOtzB4rfcWc0rewyKQOseZvZa7UecqxFycKsl18EhBHSvbLtmLR6tfb2sBOXMtNGhQ-yRpvR68vTFi2n9xv32i7YRC6wQ",
+               "width" : 3264
+            }
+         ],
+         "place_id" : "ChIJv8eQwymJGGARKCA2oTFztNU",
+         "rating" : 5,
+         "reference" : "CmRSAAAABYbGPApSZzDlnhoZTTm0KRlHUu_AFIIJ3CRftb-MQMWFzcKC5nkFtxf7pKGnH0mukBOX3F9Wa-w9iPbUc5g9wwfN7GSzrWRxQXGSztxzAfIylw_fqDu030h1tGx3BL1iEhB0z812zqs3whZmHopmMZFWGhS0ES5_ILsdvxyf_iVnL6jC_73zcQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区錦糸２丁目９−１１"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.6987976,
+               "lng" : 139.8128517
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7001465802915,
+                  "lng" : 139.8142006802915
+               },
+               "southwest" : {
+                  "lat" : 35.6974486197085,
+                  "lng" : 139.8115027197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "c141988d65a7308817106f6fb5c299361120c6c4",
+         "name" : "乾燥木工博物館",
+         "place_id" : "ChIJJwzawymJGGARptAw5TbWVTA",
+         "rating" : 3,
+         "reference" : "CmRRAAAAkk7VjwlYSWRALcQv_JsVp9b-e8VvsKPyQGjReBdF4_VZdFVBIcdM3ohiQ-xAuSPjdpc8Qwf7FW-5N7ODex0XjnLZENKrzpdNq5_V2rWc2gxUyvfOpzOCJ2C_qC_DYHnDEhB-X1qgeDOq5nhozsYueRJpGhQVB0fqJU0yU2e9ImxeZus8NXwjhA",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区錦糸２丁目９−１１"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.7078309,
+               "lng" : 139.8029764
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7091798802915,
+                  "lng" : 139.8043253802915
+               },
+               "southwest" : {
+                  "lat" : 35.7064819197085,
+                  "lng" : 139.8016274197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "95e00f1b58a176e33c9ee7cb017fc897a6ae536d",
+         "name" : "工房ショップ かざり工芸三浦 錺かんざし博物館",
+         "opening_hours" : {
+            "open_now" : false,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 1080,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/116883405590624687271/photos\"\u003eTakashi Miura\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAYPSIvMe_hTodyluJFbnyEc4LQUz4IOahGbM24XCPGMuj95xDwrKs_KVydcCiAFEcrmN67xaOjuOZn2TsZy3FHcY9liPpajrFch_MFgy8capv7ReeATeUJU-H7flBc1KWEhBrmOsED-WGIQtji_oPb3Q9GhQ7TKCuVuD06Vzo2pcpLW2cb7q6PQ",
+               "width" : 1920
+            }
+         ],
+         "place_id" : "ChIJJfxl0s-OGGARyM4uKU-hCVU",
+         "reference" : "CmRRAAAAZnPhplNevx2URtoS9UqcLZ6Oi_YmzXRPcU3kk-mElDBbqignB1k3Fo00bDzrloLeHc4mxbSaaoCSF29j9XcN26N8j-fPS5xF30cSZZESaomc-zLuNwMPOS2C-D04_cSGEhDHpY0LHA9yrC2zPGTjCaYoGhRe7oh6vrvukTkRvb4p0N9wLFVj8w",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区東駒形 Unnamed Road, ３丁目-２３"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.708893,
+               "lng" : 139.8021194
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.7102419802915,
+                  "lng" : 139.8034683802915
+               },
+               "southwest" : {
+                  "lat" : 35.7075440197085,
+                  "lng" : 139.8007704197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "593dc3cd0cb1ffe143d7b53fbc3d6da39cfae881",
+         "name" : "ちいさな硝子の本の博物館",
+         "opening_hours" : {
+            "open_now" : true,
+            "weekday_text" : []
+         },
+         "photos" : [
+            {
+               "height" : 3024,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/110253127524732157377/photos\"\u003eaki hi\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAB1JxDHVbk1cqBkZ16JJAAL974iasnie7qaxCdt2KL_-eJDPRp__u4W1_UHWSFcC5PkTBCDECFsYSWMrtw9ylMFzJvfSg-SWHpT83SwP_s2BZUXu74Br0YEy_4E_xvUKlEhD1beV9LyUKeJCpHN7bN-fBGhR2g4Cd3nBt5FfUi995sixE32OxJw",
+               "width" : 4032
+            }
+         ],
+         "place_id" : "ChIJoXXDk8-OGGAR-var1lxsdnM",
+         "rating" : 4.4,
+         "reference" : "CmRRAAAAN7vUYOPcS_uNRpjmVymPnc7PEKk4iWgHlHrTuV9W6_k7QTPpo-2E9sMSGMyBBz91tlaGGz85vQQSOltSfSujMaTSlvyIXgTwf0NZ94F__n4KItqeSKMIg1SSDA8gPOBWEhCY7xTIuuqn8Pv3auoB8ltUGhSAHGUuwbFaigy6ipBfzZiD3Hl9bQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "store", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区吾妻橋１丁目１９−８"
+      },
+      {
+         "geometry" : {
+            "location" : {
+               "lat" : 35.6976921,
+               "lng" : 139.8026438
+            },
+            "viewport" : {
+               "northeast" : {
+                  "lat" : 35.69904108029151,
+                  "lng" : 139.8039927802915
+               },
+               "southwest" : {
+                  "lat" : 35.69634311970851,
+                  "lng" : 139.8012948197085
+               }
+            }
+         },
+         "icon" : "https://maps.gstatic.com/mapfiles/place_api/icons/museum-71.png",
+         "id" : "1227de8ccca7e3f6f6417fae903da986bdc2a262",
+         "name" : "河竹黙阿弥終焉の地",
+         "photos" : [
+            {
+               "height" : 853,
+               "html_attributions" : [
+                  "\u003ca href=\"https://maps.google.com/maps/contrib/100086393355682746308/photos\"\u003e五十嵐正臣\u003c/a\u003e"
+               ],
+               "photo_reference" : "CmRaAAAAjAW9Kr4Q-rPKyhKZ3dsr9PNCl9tB_he5wF5aupa8TntJxLuDKsMM6yirMmZd5gNgcwCAN_vXI6AtxAXHzEEyb2L6GtAiV2h7yzR4G4CyT6oBOnOu0rDcF3msD0UGz4NXEhB6CQEJWGR8AiIoPVUQayLmGhSogs-TXAiB90xWNB9E4wevIstBVw",
+               "width" : 1280
+            }
+         ],
+         "place_id" : "ChIJ2Y1HbzKJGGARXDZDGEcmBoU",
+         "reference" : "CmRSAAAA5dtSHdtif8gPnLf_tZmIVij_-Ocl1bRCM6ADuuP6ZvLHx_CTZHVf94eISdewbme0Yi_KBC0_NAFIgG-7tcNjPKFPqBEuha0ndndAjChZMRFf2qNvM5LHProxo-6IwY0KEhBDUvgDj3N-0XLS8E8BdkSpGhT0UfDBBGM9AHVGEIFAx-1rjEPeCQ",
+         "scope" : "GOOGLE",
+         "types" : [ "museum", "point_of_interest", "establishment" ],
+         "vicinity" : "墨田区亀沢２丁目１１−１４"
+      }
+   ],
+   "status" : "OK"
+}
