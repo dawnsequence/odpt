@@ -4,8 +4,8 @@ import csv
 import pickle
 
 #csvfileloc='/Users/yulia/Desktop/odpt/firstID.csv'
-csvfileloc='C:/Users/liju/Dropbox/odpt/leftovers-busstops.csv'
-minimalbuses='C:/Users/liju/Dropbox/odpt/minimal.csv'
+csvfileloc='/Users/yulia/Dropbox/odpt/superminimal.csv'
+minimalbuses='/Users/yulia/Dropbox/odpt/superminimal.csv'
 leftoverbuses='C:/Users/liju/Dropbox/odpt/leftovers-busstops.csv'
 
 def generatePlacesRequest(coordstring, POItype):
@@ -44,25 +44,25 @@ tourrequests=[]
 shoprequests=[]
 
 for stop in requestcoordslist:
-    restaurantrequests.append(generatePlacesRequest(stop[1], "restaurant"))
+    #restaurantrequests.append(generatePlacesRequest(stop[1], "restaurant"))
     #caferequests.append(generatePlacesRequest(stop[1], "cafe"))
 #     caferequests.append(generatePlacesRequest(y[3], "bakery"))
 #     barrequests.append(generatePlacesRequest(y[3], "bar"))
-#     tourrequests.append(generatePlacesRequest(stop[1], "park"))
-#     tourrequests.append(generatePlacesRequest(stop[1], "museum"))
+    # tourrequests.append(generatePlacesRequest(stop[1], "park"))
+    # tourrequests.append(generatePlacesRequest(stop[1], "museum"))
 # #     tourrequests.append(generatePlacesRequest(y[3], "aquarium"))
 # #     tourrequests.append(generatePlacesRequest(y[3], "art_gallery"))
 # #     tourrequests.append(generatePlacesRequest(y[3], "amusement_park"))
-#     shoprequests.append(generatePlacesRequest(stop[1], "shopping_mall"))
+    shoprequests.append(generatePlacesRequest(stop[1], "shopping_mall"))
 # #     shoprequests.append(generatePlacesRequest(y[3], "shoe_store"))
 # #     shoprequests.append(generatePlacesRequest(y[3], "store"))
-#     shoprequests.append(generatePlacesRequest(stop[1], "department_store"))
-#     shoprequests.append(generatePlacesRequest(y[3], "clothing_store"))
+    shoprequests.append(generatePlacesRequest(stop[1], "department_store"))
+    # shoprequests.append(generatePlacesRequest(y[3], "clothing_store"))
 # 
-print len(restaurantrequests)
+print len(tourrequests)
 # len(caferequests), len(tourrequests), len(shoprequests)
-print restaurantrequests[0]
-print restaurantrequests[-1]
+print shoprequests[0]
+print shoprequests[-1]
 # print tourrequests[0:5]
 
 #print len(restaurantrequests)
@@ -75,14 +75,18 @@ shoprequestsfile='/Users/yulia/Desktop/odpt/shoprequestspickle.txt'
 caferequestsfile='/Users/yulia/Desktop/odpt/caferequestspickle.txt'
 tourrequestsfile='/Users/yulia/Desktop/odpt/tourrequestspickle.txt'
 restaurantrequestsfile='/Users/yulia/Desktop/odpt/restaurantrequestspickle.txt'
-coordsfile='/Users/yulia/Desktop/odpt/ids-coords-pickle.txt'
+coordsfile='C:/Users/liju/Dropbox/odpt/minimal_coords.txt'
 
 restaurants_leftoverpickle='C:/Users/liju/Dropbox/odpt/restaurants_leftoverpickle.txt'
-restaurants_minimalpickle='C:/Users/liju/Dropbox/odpt/restaurants_minimalpickle'
+restaurants_minimalpickle='C:/Users/liju/Dropbox/odpt/restaurants_minimalpickle.txt'
+shop_minimalpickle='C:/Users/liju/Dropbox/odpt/shop_minimalpickle.txt'
+tour_minimalpickle='C:/Users/liju/Dropbox/odpt/tour_minimalpickle.txt'
 
-#fileobject=open(shoprequestsfile, 'wb')
-#pickle.dump(shoprequests, fileobject)
-#fileobject.close()
+superminimalpickle='/Users/yulia/Dropbox/odpt/superminimalpickle.txt'
+
+fileobject=open(shop_minimalpickle, 'wb')
+pickle.dump(shoprequests, fileobject)
+fileobject.close()
 #
 #fileobject=open(caferequestsfile, 'wb')
 #pickle.dump(caferequests, fileobject)
@@ -92,13 +96,13 @@ restaurants_minimalpickle='C:/Users/liju/Dropbox/odpt/restaurants_minimalpickle'
 #pickle.dump(tourrequests, fileobject)
 #fileobject.close()
 #
-fileobject=open(restaurants_leftoverpickle, 'wb')
-pickle.dump(restaurantrequests, fileobject)
-fileobject.close()
-
-# fileobject=open(coordsfile, 'wb')
-# pickle.dump(requestcoordslist, fileobject)
+# fileobject=open(restaurants_leftoverpickle, 'wb')
+# pickle.dump(restaurantrequests, fileobject)
 # fileobject.close()
+
+fileobject=open(coordsfile, 'wb')
+pickle.dump(requestcoordslist, fileobject)
+fileobject.close()
 
 # 
 # fileobject=open(tourrequestsfile, 'r')

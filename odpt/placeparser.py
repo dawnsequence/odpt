@@ -25,9 +25,11 @@ def parsePlaces(localurl):
     print len(placesjson["results"]), " results"
     
     resultslist=[]
+    busstop_id=(placefile2.split("/")[-1]).split(".")[0]
     
     for result in placesjson["results"]:
         place={}
+        place["busstop_id"]=busstop_id
         try:
             place["rating"]=result["rating"]
         except KeyError:
@@ -70,10 +72,12 @@ print busjson.keys()
 print len(busjson["results"])
 jsonfile.close()
 
+busstop_id=(placefile2.split("/")[-1]).split(".")[0]
 resultslist=[]
 norating=[]
 for result in busjson["results"]:
     place={}
+    place["busstop_id"]=busstop_id
     try:
         place["rating"]=result["rating"]
     except KeyError:
@@ -148,7 +152,7 @@ for x in placesarray:
 
 
 '''Parsing the POI info'''
-
+#placesarray[2]
 poifile='C:/Users/liju/Desktop/odpt/place-ChIJqSniv_qRGGAReerMAjODtSM.json'
 
 with open(poifile, 'r') as jsonfile:
@@ -210,10 +214,58 @@ print poidict
 for item in poidict: print item
 print poidict["opening_hours"][3]
 
+print placesarray[2]
+
+'''concatenate placesearch results matching dictionary
+with dictionary for place details'''
+# 
+# for dictn in placesarray:
+#     if dictn["place_id"]==poidict["place_id"]:
+#         print "WE HAVE A MATCH"
+#         print dictn
+#         print poidict
+#         dictn.update(poidict)
+#         print "CONCATENATED DICTS\n"
+#         print dictn
+#         print dictn.keys()
+
+print "\n"
+print "\n"
+
+'''update only where place_id matches between POI name and record name in places'''        
+def joinDicttoList(inputlist, joindict, index="place_id"):
+    for item in inputlist:
+        try:
+            if item[index]==joindict[index]:
+                item.update(joindict)
+                print item["place_id"], " was updated\n"
+                print item.keys()
+        except KeyError:
+            print "no key ", index
+        
+    return inputlist
+
+updatedlist=joinDicttoList(placesarray, poidict)
+for i in updatedlist:
+    print i, "\n"
+
+
+'''updatedlist is the list we want to export now as final JSON'''
+
+testlistfile='C:/Users/liju/Desktop/odpt/testlistexport.json'
+asdicts='C:/Users/liju/Desktop/odpt/dictexport.json'
+
+#dump to JSON file as a list of dictionaries
+#better as just dictionaries?
+with open(asdicts, 'w') as jsonfile:
+    for i in updatedlist:
+        json.dump(i, jsonfile)
+    # json.dump(updatedlist, jsonfile)
+
+
+
+#importing
 # busjson=str(busjson)   #double-JSON encoding
 # busjson=json.loads(busjson)  #loads uses string
-
-# with open(busroutesjson, 'w') as jsonfile:
-#     json.dump(f, jsonfile)
     
 # locations=busjson.keys()    
