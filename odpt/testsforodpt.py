@@ -50,7 +50,7 @@ cy=0
 print a   
 print b
 
-# printtest='C:/Users/liju/Desktop/odpt/printtest.txt'            
+# printtest='/Desktop/odpt/printtest.txt'            
 # with open(printtest, 'w') as outputFile:
 #         outputFile.write(str(a))
 #         outputFile.write(str(b)) 
@@ -126,7 +126,7 @@ def getMatchDict(duplicatearray):
     
 print getMatchDict(dus)
 
-filename='C:/Users/liju/Desktop/odpt/busdictpickle.txt'
+filename='/Desktop/odpt/busdictpickle.txt'
 
 fileobject=open(filename, 'wb')
 pickle.dump(getMatchDict(dus), fileobject)

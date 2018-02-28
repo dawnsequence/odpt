@@ -1,14 +1,14 @@
 import json
 
 bs='https://raw.githubusercontent.com/dawnsequence/odpt/master/busstops.json'
-busstopsjson='C:/Users/liju/Desktop/odpt/busstops.json'
+busstopsjson='/Desktop/odpt/busstops.json'
 #busstops='https://raw.githubusercontent.com/misteroda/tokyo-odpt/master/data/bus_stops.json'
 busroutes='https://raw.githubusercontent.com/misteroda/tokyo-odpt/master/data/bus_routes.json'
-busroutesjson='C:/Users/liju/Desktop/odpt/busroutes.json'
+busroutesjson='/Desktop/odpt/busroutes.json'
 
-placefile='C:/Users/liju/Desktop/odpt/Baigou.json'
-placefile2='C:/Users/liju/Desktop/odpt/Adachidaigochuugakkoumae.json'
-poifile='C:/Users/liju/Desktop/odpt/place-ChIJqSniv_qRGGAReerMAjODtSM.json'
+placefile='/Desktop/odpt/Baigou.json'
+placefile2='/Desktop/odpt/Adachidaigochuugakkoumae.json'
+poifile='/Desktop/odpt/place-ChIJqSniv_qRGGAReerMAjODtSM.json'
 
 # request=requests.get(busroutes)
 # f=request.text
@@ -131,7 +131,7 @@ for a in resultslist:
 def detailsAPIgenerator(placeid):
     placeid=str(placeid)
     beforetag="https://maps.googleapis.com/maps/api/place/details/json?placeid="
-    aftertag="&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ"
+    aftertag="&key= "
     finalrequest=beforetag+placeid+aftertag
     return finalrequest
 
@@ -153,7 +153,7 @@ for x in placesarray:
 
 '''Parsing the POI info'''
 #placesarray[2]
-poifile='C:/Users/liju/Desktop/odpt/place-ChIJqSniv_qRGGAReerMAjODtSM.json'
+poifile='/Desktop/odpt/place-ChIJqSniv_qRGGAReerMAjODtSM.json'
 
 with open(poifile, 'r') as jsonfile:
     poijson=json.load(jsonfile)
@@ -252,8 +252,8 @@ for i in updatedlist:
 
 '''updatedlist is the list we want to export now as final JSON'''
 
-testlistfile='C:/Users/liju/Desktop/odpt/testlistexport.json'
-asdicts='C:/Users/liju/Desktop/odpt/dictexport.json'
+testlistfile='/Desktop/odpt/testlistexport.json'
+asdicts='/Desktop/odpt/dictexport.json'
 
 #dump to JSON file as a list of dictionaries
 #better as just dictionaries?

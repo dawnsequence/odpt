@@ -15,13 +15,13 @@ import os
 def detailsCallgenerator(place_id):
     placeid=str(place_id)
     beforetag="https://maps.googleapis.com/maps/api/place/details/json?placeid="
-    #aftertag="&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ"
-    #aftertag="&key=AIzaSyA1juD_DrcPs36qAyb5OHtQZ3ezh6VdBJs"
-    aftertag="&key=AIzaSyCLvhZZ6OJbvikK0GcJQpM4BKJ6dnq4Vgk"
+    #aftertag="&key="
+    #aftertag="&key="
+    aftertag="&key="
     finalrequest=beforetag+placeid+aftertag
     return finalrequest
     
-def getRequestAndDump(url, identifier, prefix='/Users/yulia/Desktop/odpt/data/places/', delay=0):
+def getRequestAndDump(url, identifier, prefix='/Desktop/odpt/data/places/', delay=0):
     #print url
     request=requests.get(url)
     responsebody=request.text
@@ -35,8 +35,8 @@ def getRequestAndDump(url, identifier, prefix='/Users/yulia/Desktop/odpt/data/pl
         jsonfile.close()
     time.sleep(delay)
 
-picklelocn='/Users/yulia/Desktop/odpt/data/POI/departmentpkl.txt'
-testdir='/Users/yulia/Desktop/odpt/data/POI/'
+picklelocn='/Desktop/odpt/data/POI/departmentpkl.txt'
+testdir='/Desktop/odpt/data/POI/'
 
 fileobject=open(picklelocn, 'r')
 testresults=pickle.load(fileobject)
@@ -57,7 +57,7 @@ allplaces=[]
 #        
 #print len(allplaces), len(uniqueplaces)
 
-uniquepickle='/Users/yulia/Desktop/odpt/data/POI/unique.txt'
+uniquepickle='/Desktop/odpt/data/POI/unique.txt'
 
 #fileobject=open(uniquepickle, 'wb')
 #pickle.dump(uniqueplaces, fileobject)
@@ -67,7 +67,7 @@ fileobject=open(uniquepickle, 'r')
 uniques=pickle.load(fileobject)
 fileobject.close()
 
-outputlocn='/Users/yulia/Desktop/odpt/data/places/'
+outputlocn='/Desktop/odpt/data/places/'
 
 print uniques[0]
 print type((os.listdir(outputlocn))[1])

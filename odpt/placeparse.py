@@ -4,7 +4,7 @@ import json
 import os
 import pickle
 
-datadirectory='/Users/yulia/Desktop/odpt/data/places/'
+datadirectory='/Desktop/odpt/data/places/'
 
 print os.listdir(datadirectory)[1]
 
@@ -80,8 +80,8 @@ def getPlaceInfoDict(placejson):
 ##print placesdicts 
 #print len(placesdicts)          
 
-placesdictsdump='/Users/yulia/Desktop/odpt/data/placesdictspickle.txt'
-pickledatadir='/Users/yulia/Desktop/odpt/data/POI/'
+placesdictsdump='/Desktop/odpt/data/placesdictspickle.txt'
+pickledatadir='/Desktop/odpt/data/POI/'
 amuse='amusementpkl.txt'
 shop='shopping_pkl.txt'
 rest='restaurantpkl.txt'
@@ -216,7 +216,7 @@ b=[{"name":"cat", "status": "awesome"}, {"name": "awful"}]
 #print len(amuselist), len(shoplist), len(restlist)
 #
 #
-betterdump='/Users/yulia/Desktop/odpt/data/betterpickle.txt'
+betterdump='/Desktop/odpt/data/betterpickle.txt'
 
 with open(betterdump, 'wb') as placesdictsloc:
     pickle.dump(gr, placesdictsloc)

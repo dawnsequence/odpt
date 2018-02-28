@@ -12,18 +12,15 @@ import pickle
 
 
 # 
-requestedURL="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=500&type=restaurant&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ"
-# filename='C:/Users/liju/Desktop/python/js/gmapsAPI/config.json'
+requestedURL="https://maps.googleapis.com/maps/api/place/nearbysearch/json?location=-33.8670522,151.1957362&radius=500&type=restaurant&key= "
 #r="A dict"
-testfilename='C:/Users/liju/Desktop/testjson.json'
-placestest='C:/Users/liju/Desktop/odpt/placestest.json'
-#busstops='https://raw.githubusercontent.com/misteroda/tokyo-odpt/master/data/bus_stops.json'
-busstopsjson='C:/Users/liju/Desktop/odpt/busstops.json'
-#busroutes='https://raw.githubusercontent.com/misteroda/tokyo-odpt/master/data/bus_routes.json'
-busroutesjson='C:/Users/liju/Desktop/odpt/busroutes.json'
-busstopscsv='C:/Users/liju/Desktop/odpt/busstops.txt'
+testfilename=' /Desktop/testjson.json'
+placestest=' /Desktop/odpt/placestest.json'
+busstopsjson=' /Desktop/odpt/busstops.json'
+busroutesjson=' /Desktop/odpt/busroutes.json'
+busstopscsv=' /Desktop/odpt/busstops.txt'
 bs='https://raw.githubusercontent.com/dawnsequence/odpt/master/busstops.json'
-#request=requests.get("https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJrU31vOaHGGAR8RKvwt87QGU&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ")
+#request=requests.get("https://maps.googleapis.com/maps/api/place/details/json?placeid=ChIJrU31vOaHGGAR8RKvwt87QGU&key= ")
 # request=requests.get(busroutes)
 # f=request.text
 
@@ -75,7 +72,7 @@ def generatePlacesRequest(coordstring, POItype):
     
     beforetag='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='
     aftertag='&radius=1000&rating%3E4&type='
-    keytag='&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ'
+    keytag='&key= '
     finalrequest=beforetag+str(coordstring)+aftertag+str(POItype)+keytag
     return finalrequest
            
@@ -198,13 +195,13 @@ def getMatchDict(duplicatearray):
     
 matchdict=getMatchDict(dups)   
 
-pkl='C:/Users/liju/Desktop/odpt/busdictpickle.txt'
+pkl=' /Desktop/odpt/busdictpickle.txt'
 
 fileobject=open(pkl, 'wb')
 pickle.dump(getMatchDict(matchdict), fileobject)
 fileobject.close()
     
-# matches='C:/Users/liju/Desktop/odpt/busstopmatches.txt'            
+# matches=' /Desktop/odpt/busstopmatches.txt'            
 # with open(matches, 'w') as outputFile:
 #     for a in matchMatrix:
 #         for b in a:

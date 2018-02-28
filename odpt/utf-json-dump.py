@@ -3,7 +3,7 @@ import unicodecsv as ucsv
 import csv
 import json
 
-# pickloc='C:/Users/liju/Desktop/odpt/data/betterpickle.txt'
+# pickloc='/Desktop/odpt/data/betterpickle.txt'
 # 
 # with open(pickloc, 'r') as pickl:
 #     fullarray=pickle.load(pickl)
@@ -11,7 +11,7 @@ import json
 # 
 # print len(fullarray)
 # 
-# with open('C:/Users/liju/Desktop/odpt/data/allcsvkeys.csv', 'wb') as f:
+# with open('/Desktop/odpt/data/allcsvkeys.csv', 'wb') as f:
 #     f.write(u'\ufeff'.encode('utf8'))
 #     writer=csv.writer(f)
 #     writer.writerow(fullarray[0].keys())
@@ -20,7 +20,7 @@ import json
 #         
 # f.close()
 
-fileloc='C:/Users/liju/Dropbox/odpt/data/odpt-POI-(!header).csv'
+fileloc='/Dropbox/odpt/data/odpt-POI-(!header).csv'
 with open(fileloc, 'r') as filel:
     reader=csv.reader(filel)
     lst=list(map(tuple, reader))
@@ -50,7 +50,7 @@ for item in lst:
 print fullist, len(fullist)
 print fullist[1]
 
-floc='C:/Users/liju/Desktop/odpt/data/long-buses.txt'
+floc='/Desktop/odpt/data/long-buses.txt'
 with open(floc, 'wb') as pklfile:
     pickle.dump(fullist, pklfile)
 pklfile.close()
@@ -59,7 +59,7 @@ with open(floc, 'r') as pklfile:
     unpickled=pickle.load(pklfile)
 pklfile.close()
 
-jloc='C:/Users/liju/Desktop/odpt/data/long-buses.json'
+jloc='/Desktop/odpt/data/long-buses.json'
 with open(jloc, 'wb') as jsonfile:
     jsonfile.write(json.dumps(unpickled, ensure_ascii=False))
 

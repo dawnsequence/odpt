@@ -15,8 +15,8 @@ import json
 import os
 import pickle
 
-pf='C:/Users/liju/Desktop/odpt/Baigou.json'
-pf2='C:/Users/liju/Desktop/odpt/Adachidaigochuugakkoumae.json'
+pf='/Desktop/odpt/Baigou.json'
+pf2='/Desktop/odpt/Adachidaigochuugakkoumae.json'
 
 
 # for y in os.listdir(testdir):
@@ -122,11 +122,11 @@ def processPOIs(inputdir, maxnr):
         print "Give us a folder name, not an array or something"
 
 
-testdir='C:/Users/liju/Desktop/odpt/tests/'
-picklelocn='C:/Users/liju/Desktop/odpt/testdirpkl.txt'
+testdir='/Desktop/odpt/tests/'
+picklelocn='/Desktop/odpt/testdirpkl.txt'
 
-departmentdir='C:/Users/liju/Desktop/odpt/data/department/'
-departmentpicklelocn='C:/Users/liju/Desktop/odpt/data/POI/departmentpkl.txt'
+departmentdir='/Desktop/odpt/data/department/'
+departmentpicklelocn='/Desktop/odpt/data/POI/departmentpkl.txt'
 
 print "\nStarting...\n\n"        
 #testdirPOIlist=processPOIs(testdir, 2)

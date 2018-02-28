@@ -3,16 +3,16 @@
 import csv
 import pickle
 
-#csvfileloc='/Users/yulia/Desktop/odpt/firstID.csv'
-csvfileloc='/Users/yulia/Dropbox/odpt/superminimal.csv'
-minimalbuses='/Users/yulia/Dropbox/odpt/superminimal.csv'
-leftoverbuses='C:/Users/liju/Dropbox/odpt/leftovers-busstops.csv'
+#csvfileloc='/Desktop/odpt/firstID.csv'
+csvfileloc='/Dropbox/odpt/superminimal.csv'
+minimalbuses='/Dropbox/odpt/superminimal.csv'
+leftoverbuses='/Dropbox/odpt/leftovers-busstops.csv'
 
 def generatePlacesRequest(coordstring, POItype):
     
     beforetag='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='
     aftertag='&radius=1000&rating%3E4&type='
-    keytag='&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ'
+    keytag='&key= '
     finalrequest=beforetag+str(coordstring)+aftertag+str(POItype)+keytag
     return finalrequest
            
@@ -71,18 +71,18 @@ print shoprequests[-1]
 #print shoprequests[0]
 #print restaurantrequests[0]
 
-shoprequestsfile='/Users/yulia/Desktop/odpt/shoprequestspickle.txt'
-caferequestsfile='/Users/yulia/Desktop/odpt/caferequestspickle.txt'
-tourrequestsfile='/Users/yulia/Desktop/odpt/tourrequestspickle.txt'
-restaurantrequestsfile='/Users/yulia/Desktop/odpt/restaurantrequestspickle.txt'
-coordsfile='C:/Users/liju/Dropbox/odpt/minimal_coords.txt'
+shoprequestsfile='/Desktop/odpt/shoprequestspickle.txt'
+caferequestsfile='/Desktop/odpt/caferequestspickle.txt'
+tourrequestsfile='/Desktop/odpt/tourrequestspickle.txt'
+restaurantrequestsfile='/Desktop/odpt/restaurantrequestspickle.txt'
+coordsfile='/Dropbox/odpt/minimal_coords.txt'
 
-restaurants_leftoverpickle='C:/Users/liju/Dropbox/odpt/restaurants_leftoverpickle.txt'
-restaurants_minimalpickle='C:/Users/liju/Dropbox/odpt/restaurants_minimalpickle.txt'
-shop_minimalpickle='C:/Users/liju/Dropbox/odpt/shop_minimalpickle.txt'
-tour_minimalpickle='C:/Users/liju/Dropbox/odpt/tour_minimalpickle.txt'
+restaurants_leftoverpickle='/Dropbox/odpt/restaurants_leftoverpickle.txt'
+restaurants_minimalpickle='/Dropbox/odpt/restaurants_minimalpickle.txt'
+shop_minimalpickle='/Dropbox/odpt/shop_minimalpickle.txt'
+tour_minimalpickle='/Dropbox/odpt/tour_minimalpickle.txt'
 
-superminimalpickle='/Users/yulia/Dropbox/odpt/superminimalpickle.txt'
+superminimalpickle='/Dropbox/odpt/superminimalpickle.txt'
 
 fileobject=open(shop_minimalpickle, 'wb')
 pickle.dump(shoprequests, fileobject)

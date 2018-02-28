@@ -5,9 +5,9 @@ import requests
 import json
 import time
 
-restaurantrequestsfile='/Users/yulia/Desktop/odpt/restaurantrequestspickle.txt'
-#coordsfile='/Users/yulia/Desktop/odpt/ids-coords-pickle.txt'
-coordsfile='/Users/yulia/Dropbox/odpt/minimal_coords.txt'
+restaurantrequestsfile='/Desktop/odpt/restaurantrequestspickle.txt'
+#coordsfile='/Desktop/odpt/ids-coords-pickle.txt'
+coordsfile='/Dropbox/odpt/minimal_coords.txt'
 
 fileobject=open(restaurantrequestsfile, 'r')
 restaurantrequests=pickle.load(fileobject)
@@ -22,21 +22,21 @@ print len(coords), coords[0][0]
 #testvs=coords[:5]
 #
 #
-#testfilename='/Users/yulia/Desktop/odpt/places/restaurants/testid.txt'
+#testfilename='/Desktop/odpt/places/restaurants/testid.txt'
 #websitetoopen=restaurantrequests[0]
 #print websitetoopen
 
 
 #
 #print testvs
-prefix="/Users/yulia/Desktop/odpt/data/aquarium/"
+prefix="/Desktop/odpt/data/aquarium/"
         
 def generatePlacesRequest(item, POItype):  
     beforetag='https://maps.googleapis.com/maps/api/place/nearbysearch/json?location='
     aftertag='&radius=2000&rating%3E3&type='
     #aftertag='&radius=1000&type='
-    #keytag='&key=AIzaSyCkdHPOnGNLIicgC4lJaJucLjMVOxDPVUQ'
-    keytag='&key=AIzaSyA1juD_DrcPs36qAyb5OHtQZ3ezh6VdBJs'
+    #keytag='&key= '
+    keytag='&key= '
     finalrequest=beforetag+str(item)+aftertag+str(POItype)+keytag
     return finalrequest
         

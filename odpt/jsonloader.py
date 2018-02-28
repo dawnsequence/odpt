@@ -2,7 +2,7 @@
 
 import json
 
-testfilename='/Users/yulia/Desktop/odpt/places/restaurants/testid.txt'
+testfilename='/Desktop/odpt/places/restaurants/testid.txt'
 
 with open(testfilename, 'r') as jsonfile:
     busjson=json.load(jsonfile)
@@ -15,7 +15,7 @@ busjson=json.loads(busjson)
 print busjson.keys()
 print busjson.values()
 
-prefix="/Users/yulia/Desktop/odpt/places/restaurants/"
+prefix="/Desktop/odpt/places/restaurants/"
 identifier="ehwah"
 filename=prefix+identifier+".txt"
 
